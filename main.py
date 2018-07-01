@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import sys
+import getopt
 from Grafo import Grafo
 
 G = Grafo()
@@ -38,11 +40,6 @@ def abre_arquivo(path):
         ler(G, f)
 
     f.close()
-
-def interface_arquivo():
-    arquivo = input("Digite o nome do arquivo de entrada (deve estar na pasta entradas): ")
-    arquivo = "entradas/" + str(arquivo) + ".txt"
-    abre_arquivo(arquivo)
 
 def make_set(vertice):
     vertice.pai = vertice
@@ -91,8 +88,23 @@ def menu():
     print("[3] Trocar arquivo")
     print("[q] Sair")
 
+def main(argv):
+    try:
+        opts, args = getopt.getopt(argv, "hf:", ["file"])
+    except getopt.GetoptError:
+        print('main.py -f <file>')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print('main.py -f <file>')
+            sys.exit()
+        elif opt in ("-f", "--file"):
+            f = arg
+
+    abre_arquivo(f)
+
 #Interação com o usuário
-interface_arquivo()
+main(sys.argv[1:])
 menu()
 while True:
     teclado = input()
