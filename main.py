@@ -9,6 +9,8 @@ G = Grafo()
 def ler(G, file):
     line = file.readline()
     spt = line.split()
+    if spt[0] == '#':
+        return
     x = (spt[0])
     y = (spt[1])
     z = (spt[2])
@@ -75,7 +77,7 @@ def kruskal(G):
         vertice2 = G.get_vertice(vertice2)
         if find_set(vertice1) != find_set(vertice2):
             union(vertice1, vertice2)
-            mst.append(aresta[0])
+            mst.append(aresta)
             total += aresta[1]
     print("Total: " , total)
     return mst
@@ -85,7 +87,6 @@ def menu():
     print("Escolha uma das opcoes ou pressione 'q' para sair")
     print("[1] Arvore Geradora Minima - Kruskal")
     print("[2] Imprimir Grafo")
-    print("[3] Trocar arquivo")
     print("[q] Sair")
 
 def main(argv):
@@ -109,15 +110,10 @@ menu()
 while True:
     teclado = input()
     if teclado == '1':
-            caminho = kruskal(G)
-            print("Arestas do caminho: ")
-            print(caminho)
+        caminho = kruskal(G)
+        print("Arestas do caminho: ")
+        print(caminho)
     elif teclado == '2':
-        imprime_grafo(G)
-    elif teclado == '3':
-        del G
-        G = Grafo()
-        interface_arquivo()
         imprime_grafo(G)
     elif teclado == 'q':
         print("Tchau!")

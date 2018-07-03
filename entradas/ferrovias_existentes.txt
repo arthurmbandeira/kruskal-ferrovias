@@ -1,0 +1,102 @@
+24
+100
+Cianorte Maringa 0
+Maringa Apucarana 0
+Apucarana Londrina 0
+Apucarana Ipiranga 0
+Ipiranga Guarapuava 0
+Telemaco_Borba Ponta_Grossa 0
+Telemaco_Borba Londrina 0
+Ipiranga Ponta_Grossa 0
+Guarapuava Ponta_Grossa 0
+Ponta_Grossa Campo_Largo 0
+Campo_Largo Curitiba 0
+Curitiba Rio_Branco_do_Sul 0
+Curitiba Paranagua 0
+Cascavel Umuarama 133
+Toledo Umuarama 114
+Foz_do_Iguacu Umuarama 233
+Umuarama Maringa 145
+Umuarama Cianorte 78
+Umuarama Arapongas 203
+Umuarama Apucarana 195
+Apucarana Umuarama 145
+Cambe Umuarama 216
+Londrina Umuarama 225
+Cascavel Toledo 44
+Toledo Foz_do_Iguacu 122
+Toledo Maringa 234
+Toledo Guarapuava 242
+Toledo Cianorte 165
+Guarapuava Cascavel 206
+Cascavel Foz_do_Iguacu 135
+Cascavel Maringa 230
+Cascavel Cianorte 168
+Foz_do_Iguacu Guarapuava 316
+Foz_do_Iguacu Maringa 357
+Foz_do_Iguacu Cianorte 288
+Maringa Cambe 72
+Arapongas Cambe 21
+Apucarana Cambe 35.5
+Cambe Londrina 10
+Cambe Cianorte 142
+Maringa Arapongas 57
+Arapongas Cianorte 124
+Apucarana Arapongas 15
+Londrina Arapongas 29
+Telemaco_Borba Arapongas 131
+Piraquara Almirante_Tamandare 28
+Pinhais Almirante_Tamandare 18
+Colombo Almirante_Tamandare 13
+Curitiba Almirante_Tamandare 12.5
+Almirante_Tamandare Sao_Jose_dos_Pinhais 25.5
+Almirante_Tamandare Campo_Largo 28
+Araucaria Almirante_Tamandare 31.5
+Ponta_Grossa Almirante_Tamandare 90
+Guarapuava Almirante_Tamandare 218
+Rio_Branco_do_Sul Almirante_Tamandare 14
+Sao_Jose_dos_Pinhais Araucaria 21
+Araucaria Campo_Largo 18
+Araucaria Curitiba 22.5
+Araucaria Pinhais 26
+Ponta_Grossa Araucaria 93
+Guarapuava Araucaria 207
+Paranagua Colombo 69
+Piraquara Colombo 15
+Sao_Jose_dos_Pinhais Colombo 18
+Pinhais Colombo 9
+Colombo Curitiba 13
+Rio_Branco_do_Sul Colombo 23
+Paranagua Sao_Jose_dos_Pinhais 68.5
+Piraquara Sao_Jose_dos_Pinhais 17
+Sao_Jose_dos_Pinhais Pinhais 10
+Sao_Jose_dos_Pinhais Curitiba 13
+Campo_Largo Sao_Jose_dos_Pinhais 34
+Paranagua Pinhais 68
+Piraquara Pinhais 13
+Pinhais Curitiba 7.5
+Campo_Largo Pinhais 34
+Rio_Branco_do_Sul Pinhais 30
+Paranagua Piraquara 55
+Piraquara Curitiba 20.5
+Paranagua Curitiba 75.5
+# Campo_Largo Curitiba 26.5
+# Ponta_Grossa Campo_Largo 75
+Ponta_Grossa Curitiba 97
+Ponta_Grossa Rio_Branco_do_Sul 88
+Guarapuava Campo_Largo 196
+# Maringa Apucarana 56
+Maringa Londrina 83
+Maringa Cianorte 73
+Apucarana Cianorte 116
+Londrina Apucarana 40.5
+Telemaco_Borba Ipiranga 80
+# Telemaco_Borba Ponta_Grossa 100
+Telemaco_Borba Apucarana 122
+# Telemaco_Borba Londrina 125
+# Ipiranga Ponta_Grossa 44
+# Ipiranga Guarapuava 98
+Ipiranga Campo_Largo 117
+Ipiranga Rio_Branco_do_Sul 130
+Rio_Branco_do_Sul Curitiba 27
+Rio_Branco_do_Sul Campo_Largo 36
