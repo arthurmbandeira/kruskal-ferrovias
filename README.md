@@ -7,7 +7,7 @@ O programa está implementado em Python 3 e deve ser executado da seguinte forma
 $ ./main.py -f entradas/<arquivo_de_entrada.txt>
 ```
 ou
-```python
+```
 $ python3 main.py -f entradas/<arquivo_de_entrada.txt>
 ```
 
