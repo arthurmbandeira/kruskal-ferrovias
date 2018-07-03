@@ -1,0 +1,32 @@
+graph dist_mst {
+    // size = "4,4";
+    node [shape=ellipse]
+    ranksep = "0.5 equally"
+    nodesep = "0.5 equally"
+    {rank = same; Cascavel; Toledo;}
+    // rankdir=TB
+
+    "Pinhais" -- "Curitiba"                       [label = "7.5"]
+    "Pinhais" -- "Colombo"                        [label = "9"]
+    "Cambé" -- "Londrina"                         [label = "10"]
+    "São José dos Pinhais" -- "Pinhais"           [label = "10"]
+    "Curitiba" -- "Almirante Tamandaré"           [label = "12.5"]
+    "Piraquara" -- "Pinhais"                      [label = "13"]
+    "Rio Branco do Sul" -- "Almirante Tamandaré"  [label = "14"]
+    "Apucarana" -- "Arapongas"                    [label = "15"]
+    "Araucária" -- "Campo Largo"                  [label = "18"]
+    "São José dos Pinhais" -- "Araucária"         [label = "21"]
+    "Arapongas" -- "Cambé"                        [label = "21"]
+    "Ipiranga" -- "Ponta Grossa"                  [label = "44"]
+    "Cascavel" -- "Toledo"                        [label = "44"]
+    "Paranaguá" -- "Piraquara"                    [label = "55"]
+    "Maringá" -- "Apucarana"                      [label = "56"]
+    "Maringá" -- "Cianorte"                       [label = "73"]
+    "Ponta Grossa" -- "Campo Largo"               [label = "75"]
+    "Umuarama" -- "Cianorte"                      [label = "78"]
+    "Harmonia" -- "Ipiranga"                      [label = "80"]
+    "Ipiranga" -- "Guarapuava"                    [label = "98"]
+    "Toledo" -- "Umuarama"                        [label = "114"]
+    "Toledo" -- "Foz do Iguaçu"                   [label = "122"]
+    "Harmonia" -- "Apucarana"                     [label = "122"]
+}

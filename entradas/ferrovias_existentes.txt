@@ -1,13 +1,12 @@
 24
-100
+88
 Cianorte Maringa 0
 Maringa Apucarana 0
 Apucarana Londrina 0
 Apucarana Ipiranga 0
 Ipiranga Guarapuava 0
-Telemaco_Borba Ponta_Grossa 0
-Telemaco_Borba Londrina 0
 Ipiranga Ponta_Grossa 0
+Telemaco_Borba Ponta_Grossa 0
 Guarapuava Ponta_Grossa 0
 Ponta_Grossa Campo_Largo 0
 Campo_Largo Curitiba 0
@@ -79,24 +78,13 @@ Campo_Largo Pinhais 34
 Rio_Branco_do_Sul Pinhais 30
 Paranagua Piraquara 55
 Piraquara Curitiba 20.5
-Paranagua Curitiba 75.5
-# Campo_Largo Curitiba 26.5
-# Ponta_Grossa Campo_Largo 75
 Ponta_Grossa Curitiba 97
 Ponta_Grossa Rio_Branco_do_Sul 88
 Guarapuava Campo_Largo 196
-# Maringa Apucarana 56
 Maringa Londrina 83
-Maringa Cianorte 73
 Apucarana Cianorte 116
-Londrina Apucarana 40.5
 Telemaco_Borba Ipiranga 80
-# Telemaco_Borba Ponta_Grossa 100
 Telemaco_Borba Apucarana 122
-# Telemaco_Borba Londrina 125
-# Ipiranga Ponta_Grossa 44
-# Ipiranga Guarapuava 98
 Ipiranga Campo_Largo 117
 Ipiranga Rio_Branco_do_Sul 130
-Rio_Branco_do_Sul Curitiba 27
 Rio_Branco_do_Sul Campo_Largo 36
